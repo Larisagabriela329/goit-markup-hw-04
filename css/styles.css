@@ -403,8 +403,7 @@ text-align: center;
 
 .portofolio-item-container {
     width: calc((100% - 48px) / 3);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
+    transition: background-color, 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
 
@@ -412,6 +411,7 @@ text-align: center;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 2px 1px rgba(46, 47, 66, 0.08); 
+    transform: translateY(0%);
 }
 
 .apps-container {
@@ -471,6 +471,7 @@ color: #434455;
     width: 100%;
     transform: translateY(100%); 
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-section {
@@ -488,7 +489,7 @@ color: #434455;
         margin-bottom: 16px;  
         margin-right: 120px;
         display: flex;
-        align-items: baseline,
+        align-items: baseline;
     
 }
 
@@ -553,6 +554,7 @@ padding-left: 156px;
 .footer-icon {
     width: 40px;
     height: 40px;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link {
@@ -563,8 +565,6 @@ padding-left: 156px;
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    background-color: #31d0aa;
-    background-color: #31d0aa; 
 }
 
 .footer-svg {
