@@ -5,7 +5,7 @@ ul {
     /* margin: 0;
     padding: 0; */
     list-style-type: none;
-  }
+  } 
   
   h1,
   h2,
@@ -145,6 +145,18 @@ top: 72px;
 gap: 0px;
 opacity: 0px;
 padding: 188px 0;
+background-color: #2E2F42B2;
+background-image: url(../images/PeopleOfficeBackground.jpg);
+background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .main-title {
@@ -156,6 +168,7 @@ padding: 188px 0;
 color: #FFFFFF; 
 line-height: 1.07;
 max-width: 496px;
+margin-bottom: 48px;
 }
 
 .order-button {
@@ -193,8 +206,23 @@ border: none;
     gap: 24px;
 }
 
+.about-icons {
+    width: 264px;
+height: 112px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid #8E8F99;
+}
+
 .about-title-container {
-    width: calc((100% - 72px) / 4);
+    width: Fixed (264px)px;
+height: Hug (224px)px;
+top: 792px;
+left: 156px;
+gap: 8px;
+opacity: 0px;
+
 }
 
 .visually-hidden {
@@ -348,18 +376,16 @@ color: #434455;
 .footer-section {
     background-color: #2E2F42;
     padding: 100px 0; 
-    
 }
 
 .footer-container {
-width: 1440px;
-height: 312px;
-top: 2988px;
-gap: 0px;
-opacity: 0px;
-padding: 100px 0;
-margin-bottom: 16px; 
-
+        width: 1440px;
+        height: 312px;
+        top: 2988px;
+        gap: 0px;
+        opacity: 0px;
+        padding: 100px 0;
+        margin-bottom: 16px;  
 }
 
 .footer-logo {
@@ -399,4 +425,13 @@ letter-spacing: 0.02em;
 color: #F4F4FD; 
 padding-top: 100px;
 padding-left: 156px;
+}
+
+.footer-social-media {
+
+}
+
+.footer-subtitle {
+    color: #FFFFFF;
+
 }
