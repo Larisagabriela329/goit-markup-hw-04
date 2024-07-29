@@ -96,6 +96,7 @@ letter-spacing: 0.02em;
 text-decoration: none;
 color: #2e2f42;
 padding: 24px 0;
+position: relative;
 }
 
 .header-link:hover {
@@ -105,6 +106,18 @@ color: #404bbf;
 
 .header-link:focus {
     color: #404bbf;
+}
+
+.header-link:active::after {
+    content: "";
+    color: #404BBF;
+    position: absolute;
+    width: 48px;
+height: 4px;
+top: 44px;
+gap: 0px;
+border-radius: 2px 0px 0px 0px;
+opacity: 0px;
 }
 
 .address-items {
@@ -146,7 +159,7 @@ gap: 0px;
 opacity: 0px;
 padding: 188px 0;
 background-color: #2E2F42B2;
-background-image: url(../images/PeopleOfficeBackground.jpg);
+background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../images/PeopleOfficeBackground.jpg);
 background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -273,6 +286,10 @@ color: #434455;
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px #2E2F4214,
+    0px 1px 1px 0px #2E2F4229,
+    0px 1px 6px 0px #2E2F4214;
+
 }
 
 .team-details-container {
