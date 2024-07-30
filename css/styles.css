@@ -372,6 +372,7 @@ text-align: center;
     display: flex; 
     align-items: center; 
     justify-content: center;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-link:hover {
@@ -384,7 +385,6 @@ text-align: center;
 
 .social-media-icon {
     fill: #f4f4fd; 
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portofolio-section {
